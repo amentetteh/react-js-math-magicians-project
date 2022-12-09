@@ -1,21 +1,19 @@
+:root {
+  --orange: #f5913e;
+  --grey: #e0e0e0;
+  --screen-color: #858694;
+  --touch-border-color: #c3c3c3;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-size: 2.5rem;
+  color: aqua;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,12 +26,60 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+#calculator {
+  height: 60vh;
+  width: 60vw;
+  display: flex;
+  background: var(--touch-border-color);
+  flex-direction: column;
+  gap: 2px;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.touch-row {
+  width: auto;
+  display: flex;
+  flex: 1 1 auto;
+  height: 100%;
+  gap: 2px;
+}
+
+#screen {
+  background-color: var(--screen-color);
+  border: gray;
+  flex: 1 1 auto;
+  width: 100%;
+  vertical-align: bottom;
+  color: white;
+  padding: 16px 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.touch {
+  /* aspect-ratio: 7 / 4; */
+  height: 100%;
+  width: 100%;
+  background: var(--grey);
+  border: var(--touch-border-color);
+}
+
+.touch span {
+  width: 20px;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.fn-col {
+  background: var(--orange);
+}
+
+.bottom-line-item {
+  width: 100%;
+}
+
+.bottom-line-item.right {
+  display: flex;
+  gap: 2px;
 }
