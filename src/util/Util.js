@@ -14,7 +14,7 @@ const process = (a, b, operation) => {
     case '-':
       result = one.minus(two).toString();
       break;
-    case '/':
+    case '÷':
       try {
         result = one.div(two).toString();
       } catch (err) {
