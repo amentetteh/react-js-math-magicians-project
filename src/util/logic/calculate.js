@@ -1,4 +1,4 @@
-import process from './Util';
+import process from '../Util';
 
 function isNumber(item) {
   return !!item.match(/[0-9]+/);

@@ -1,7 +1,7 @@
 import React from 'react';
 import Touch from './Touch';
 import Display from './Display';
-import calculate from '../util/calculate';
+import calculate from '../util/logic/calculate';
 
 export default class Calculator extends React.Component {
   constructor() {
