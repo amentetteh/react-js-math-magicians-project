@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Touch from './Touch';
-import Display from './Display';
+import Display from './Screen';
 import calculate from '../logic/calculate';
 
 function Calculator() {
