@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default class Display extends React.PureComponent {
+export default class Screen extends React.PureComponent {
   render() {
     const { answer, next, operator } = this.props;
     return (
@@ -14,13 +14,13 @@ export default class Display extends React.PureComponent {
   }
 }
 
-Display.defaultProps = {
+Screen.defaultProps = {
   answer: null,
   operator: null,
   next: null,
 };
 
-Display.propTypes = {
+Screen.propTypes = {
   answer: PropTypes.string,
   operator: PropTypes.string,
   next: PropTypes.string,

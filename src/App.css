@@ -6,24 +6,82 @@
 }
 
 .App {
-  text-align: center;
-  font-size: 2.5rem;
-  color: aqua;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  text-align: justify;
+  font-size: 1.5rem;
+  width: 100%;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  min-height: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: 500;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App-header #logo {
+  font-size: calc(40px + 2vmin);
+  font-weight: bolder;
+}
+
+.App-header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.App-header nav li,
+.App-header nav li a {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+
+.App-header nav li a:hover {
+  cursor: pointer;
+  height: 100%;
+  background-color: #ddd;
+  color: black;
+}
+
+.App-header nav li a:active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+#calculator-page {
+  display: flex;
+  gap: 10px;
+  flex: 1 1 auto;
+  margin: 70px;
+}
+
+#calculator-page .page-left {
+  width: 100%;
+}
+
+#calculator-page .page-right {
+  width: 100%;
+}
+
+.home {
+  margin: 60px;
+}
+
+.home h3 {
+  margin-top: 50px;
+  margin-bottom: 60px;
 }
 
 #calculator {
@@ -33,6 +91,19 @@
   background: var(--touch-border-color);
   flex-direction: column;
   gap: 2px;
+}
+
+#calculator p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.quote {
+  display: flex;
+  margin: auto 50px;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
 }
 
 .touch-row {
