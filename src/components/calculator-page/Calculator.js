@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Touch from './Touch';
 import Display from './Screen';
-import calculate from '../logic/calculate';
+import calculate from '../../logic/calculate';
 
 function Calculator() {
   const [values, setValues] = useState({

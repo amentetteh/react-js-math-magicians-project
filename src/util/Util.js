@@ -1,7 +1,7 @@
 import Big from 'big.js';
 
 const process = (a, b, operation) => {
-  let result = 0;
+  let result;
   const one = Big(a);
   const two = Big(b);
   switch (operation) {
@@ -29,7 +29,7 @@ const process = (a, b, operation) => {
       }
       break;
     default:
-      result = 0;
+      throw Error(`Unknown operation '${operation}'`);
   }
   return result;
 };
