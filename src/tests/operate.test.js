@@ -1,7 +1,6 @@
-import process from '../util/Util'
+import process from '../util/Util';
 
 describe('Test for operation', () => {
-
   it('multiply', () => {
     const result = process('5', '12', 'x');
     expect(result).toBe('60');
@@ -24,7 +23,7 @@ describe('Test for operation', () => {
 
   it('divide by zero', () => {
     const result = process('1225', '0', '÷');
-    expect(result).toBe("N/A");
+    expect(result).toBe('N/A');
   });
 
   it('modulus', () => {
@@ -34,7 +33,7 @@ describe('Test for operation', () => {
 
   it('modulus by zero', () => {
     const result = process('5', '0', '%');
-    expect(result).toBe("N/A");
+    expect(result).toBe('N/A');
   });
 
   it('Invalid operation', () => {
