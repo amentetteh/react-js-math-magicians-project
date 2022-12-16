@@ -21,18 +21,4 @@ it('CalculatorPage component should render correctly', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-
-  it('Header component should render correctly', () => {
-    const tree = renderer
-      .create(<Router><Header /></Router>)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('Quote component should render correctly', () => {
-    const tree = renderer
-      .create(<Quote />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
 });

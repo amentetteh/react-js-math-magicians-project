@@ -14,6 +14,15 @@ function isNumber(item) {
  *   operator:String  +, -, etc.
  */
 export default function calculate(obj, touchName) {
+
+  if (touchName === 'AC') {
+    return {
+      result: null,
+      next: null,
+      operator: null,
+    };
+  }
+
   if (isNumber(touchName)) {
     if (touchName === '0' && obj.next === '0') {
       return {};
