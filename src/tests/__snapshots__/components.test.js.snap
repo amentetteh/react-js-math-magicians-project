@@ -1,533 +1,793 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Test for operation Calculator Page component should render correctly 1`] = `
-<div
-  id="calculator-page"
->
-  <aside
-    className="page-left"
-  >
-    Let us do some maths!
-  </aside>
-  <aside
-    className="page-right"
-  >
-    <div
-      id="calculator"
-    >
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
       <div
-        className="touch-row"
+        id="calculator-page"
       >
-        <div
-          id="screen"
+        <aside
+          class="page-left"
         >
-          0
-        </div>
-      </div>
-      <div
-        className="touch-row"
-      >
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
+          Let us do some maths!
+        </aside>
+        <aside
+          class="page-right"
         >
-          <span>
-            AC
-          </span>
-        </button>
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            +/-
-          </span>
-        </button>
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            %
-          </span>
-        </button>
-        <button
-          className="touch fn-col"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            ÷
-          </span>
-        </button>
-      </div>
-      <div
-        className="touch-row"
-      >
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            7
-          </span>
-        </button>
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            8
-          </span>
-        </button>
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            9
-          </span>
-        </button>
-        <button
-          className="touch fn-col"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            x
-          </span>
-        </button>
-      </div>
-      <div
-        className="touch-row"
-      >
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            4
-          </span>
-        </button>
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            5
-          </span>
-        </button>
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            6
-          </span>
-        </button>
-        <button
-          className="touch fn-col"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            -
-          </span>
-        </button>
-      </div>
-      <div
-        className="touch-row"
-      >
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            1
-          </span>
-        </button>
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            2
-          </span>
-        </button>
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            3
-          </span>
-        </button>
-        <button
-          className="touch fn-col"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            +
-          </span>
-        </button>
-      </div>
-      <div
-        className="touch-row"
-      >
-        <div
-          className="bottom-line-item"
-        >
-          <button
-            className="touch zero-touch"
-            onClick={[Function]}
-            type="button"
+          <div
+            id="calculator"
           >
-            <span>
-              0
-            </span>
-          </button>
-        </div>
-        <div
-          className="bottom-line-item right"
-        >
-          <button
-            className="touch"
-            onClick={[Function]}
-            type="button"
-          >
-            <span>
-              .
-            </span>
-          </button>
-          <button
-            className="touch fn-col"
-            onClick={[Function]}
-            type="button"
-          >
-            <span>
-              =
-            </span>
-          </button>
-        </div>
+            <div
+              class="touch-row"
+            >
+              <div
+                id="screen"
+              >
+                0
+              </div>
+            </div>
+            <div
+              class="touch-row"
+            >
+              <button
+                class="touch"
+                type="button"
+              >
+                <span>
+                  AC
+                </span>
+              </button>
+              <button
+                class="touch"
+                type="button"
+              >
+                <span>
+                  +/-
+                </span>
+              </button>
+              <button
+                class="touch"
+                type="button"
+              >
+                <span>
+                  %
+                </span>
+              </button>
+              <button
+                class="touch fn-col"
+                type="button"
+              >
+                <span>
+                  ÷
+                </span>
+              </button>
+            </div>
+            <div
+              class="touch-row"
+            >
+              <button
+                class="touch"
+                type="button"
+              >
+                <span>
+                  7
+                </span>
+              </button>
+              <button
+                class="touch"
+                type="button"
+              >
+                <span>
+                  8
+                </span>
+              </button>
+              <button
+                class="touch"
+                type="button"
+              >
+                <span>
+                  9
+                </span>
+              </button>
+              <button
+                class="touch fn-col"
+                type="button"
+              >
+                <span>
+                  x
+                </span>
+              </button>
+            </div>
+            <div
+              class="touch-row"
+            >
+              <button
+                class="touch"
+                type="button"
+              >
+                <span>
+                  4
+                </span>
+              </button>
+              <button
+                class="touch"
+                type="button"
+              >
+                <span>
+                  5
+                </span>
+              </button>
+              <button
+                class="touch"
+                type="button"
+              >
+                <span>
+                  6
+                </span>
+              </button>
+              <button
+                class="touch fn-col"
+                type="button"
+              >
+                <span>
+                  -
+                </span>
+              </button>
+            </div>
+            <div
+              class="touch-row"
+            >
+              <button
+                class="touch"
+                type="button"
+              >
+                <span>
+                  1
+                </span>
+              </button>
+              <button
+                class="touch"
+                type="button"
+              >
+                <span>
+                  2
+                </span>
+              </button>
+              <button
+                class="touch"
+                type="button"
+              >
+                <span>
+                  3
+                </span>
+              </button>
+              <button
+                class="touch fn-col"
+                type="button"
+              >
+                <span>
+                  +
+                </span>
+              </button>
+            </div>
+            <div
+              class="touch-row"
+            >
+              <div
+                class="bottom-line-item"
+              >
+                <button
+                  class="touch zero-touch"
+                  type="button"
+                >
+                  <span>
+                    0
+                  </span>
+                </button>
+              </div>
+              <div
+                class="bottom-line-item right"
+              >
+                <button
+                  class="touch"
+                  type="button"
+                >
+                  <span>
+                    .
+                  </span>
+                </button>
+                <button
+                  class="touch fn-col"
+                  type="button"
+                >
+                  <span>
+                    =
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </aside>
       </div>
     </div>
-  </aside>
-</div>
-`;
-
-exports[`Test for operation CalculatorPage component should render correctly 1`] = `
-<div
-  id="calculator-page"
->
-  <aside
-    className="page-left"
-  >
-    Let us do some maths!
-  </aside>
-  <aside
-    className="page-right"
-  >
+  </body>,
+  "container": <div>
     <div
-      id="calculator"
+      id="calculator-page"
     >
-      <div
-        className="touch-row"
+      <aside
+        class="page-left"
+      >
+        Let us do some maths!
+      </aside>
+      <aside
+        class="page-right"
       >
         <div
-          id="screen"
+          id="calculator"
         >
-          0
-        </div>
-      </div>
-      <div
-        className="touch-row"
-      >
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            AC
-          </span>
-        </button>
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            +/-
-          </span>
-        </button>
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            %
-          </span>
-        </button>
-        <button
-          className="touch fn-col"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            ÷
-          </span>
-        </button>
-      </div>
-      <div
-        className="touch-row"
-      >
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            7
-          </span>
-        </button>
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            8
-          </span>
-        </button>
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            9
-          </span>
-        </button>
-        <button
-          className="touch fn-col"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            x
-          </span>
-        </button>
-      </div>
-      <div
-        className="touch-row"
-      >
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            4
-          </span>
-        </button>
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            5
-          </span>
-        </button>
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            6
-          </span>
-        </button>
-        <button
-          className="touch fn-col"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            -
-          </span>
-        </button>
-      </div>
-      <div
-        className="touch-row"
-      >
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            1
-          </span>
-        </button>
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            2
-          </span>
-        </button>
-        <button
-          className="touch"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            3
-          </span>
-        </button>
-        <button
-          className="touch fn-col"
-          onClick={[Function]}
-          type="button"
-        >
-          <span>
-            +
-          </span>
-        </button>
-      </div>
-      <div
-        className="touch-row"
-      >
-        <div
-          className="bottom-line-item"
-        >
-          <button
-            className="touch zero-touch"
-            onClick={[Function]}
-            type="button"
+          <div
+            class="touch-row"
           >
-            <span>
+            <div
+              id="screen"
+            >
               0
-            </span>
-          </button>
-        </div>
-        <div
-          className="bottom-line-item right"
-        >
-          <button
-            className="touch"
-            onClick={[Function]}
-            type="button"
+            </div>
+          </div>
+          <div
+            class="touch-row"
           >
-            <span>
-              .
-            </span>
-          </button>
-          <button
-            className="touch fn-col"
-            onClick={[Function]}
-            type="button"
+            <button
+              class="touch"
+              type="button"
+            >
+              <span>
+                AC
+              </span>
+            </button>
+            <button
+              class="touch"
+              type="button"
+            >
+              <span>
+                +/-
+              </span>
+            </button>
+            <button
+              class="touch"
+              type="button"
+            >
+              <span>
+                %
+              </span>
+            </button>
+            <button
+              class="touch fn-col"
+              type="button"
+            >
+              <span>
+                ÷
+              </span>
+            </button>
+          </div>
+          <div
+            class="touch-row"
           >
-            <span>
-              =
-            </span>
-          </button>
+            <button
+              class="touch"
+              type="button"
+            >
+              <span>
+                7
+              </span>
+            </button>
+            <button
+              class="touch"
+              type="button"
+            >
+              <span>
+                8
+              </span>
+            </button>
+            <button
+              class="touch"
+              type="button"
+            >
+              <span>
+                9
+              </span>
+            </button>
+            <button
+              class="touch fn-col"
+              type="button"
+            >
+              <span>
+                x
+              </span>
+            </button>
+          </div>
+          <div
+            class="touch-row"
+          >
+            <button
+              class="touch"
+              type="button"
+            >
+              <span>
+                4
+              </span>
+            </button>
+            <button
+              class="touch"
+              type="button"
+            >
+              <span>
+                5
+              </span>
+            </button>
+            <button
+              class="touch"
+              type="button"
+            >
+              <span>
+                6
+              </span>
+            </button>
+            <button
+              class="touch fn-col"
+              type="button"
+            >
+              <span>
+                -
+              </span>
+            </button>
+          </div>
+          <div
+            class="touch-row"
+          >
+            <button
+              class="touch"
+              type="button"
+            >
+              <span>
+                1
+              </span>
+            </button>
+            <button
+              class="touch"
+              type="button"
+            >
+              <span>
+                2
+              </span>
+            </button>
+            <button
+              class="touch"
+              type="button"
+            >
+              <span>
+                3
+              </span>
+            </button>
+            <button
+              class="touch fn-col"
+              type="button"
+            >
+              <span>
+                +
+              </span>
+            </button>
+          </div>
+          <div
+            class="touch-row"
+          >
+            <div
+              class="bottom-line-item"
+            >
+              <button
+                class="touch zero-touch"
+                type="button"
+              >
+                <span>
+                  0
+                </span>
+              </button>
+            </div>
+            <div
+              class="bottom-line-item right"
+            >
+              <button
+                class="touch"
+                type="button"
+              >
+                <span>
+                  .
+                </span>
+              </button>
+              <button
+                class="touch fn-col"
+                type="button"
+              >
+                <span>
+                  =
+                </span>
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
+      </aside>
     </div>
-  </aside>
-</div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`Test for operation Header component should render correctly 1`] = `
-<nav>
-  <div
-    id="logo"
-  >
-    Math Magicians
-  </div>
-  <div
-    className="menu"
-  >
-    <ul>
-      <li
-        className="link"
-      >
-        <a
-          aria-current="page"
-          className="nav-link active"
-          href="/"
-          onClick={[Function]}
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav>
+        <div
+          id="logo"
         >
-          Home
-        </a>
-      </li>
-      <li
-        className="link"
-      >
-        <a
-          className="nav-link"
-          href="/calculator"
-          onClick={[Function]}
+          Math Magicians
+        </div>
+        <div
+          class="menu"
         >
-          Calculator
-        </a>
-      </li>
-      <li
-        className="link"
+          <ul>
+            <li
+              class="link"
+            >
+              <a
+                aria-current="page"
+                class="nav-link active"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li
+              class="link"
+            >
+              <a
+                class="nav-link"
+                href="/calculator"
+              >
+                Calculator
+              </a>
+            </li>
+            <li
+              class="link"
+            >
+              <a
+                class="nav-link"
+                href="/quote"
+              >
+                Quote
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav>
+      <div
+        id="logo"
       >
-        <a
-          className="nav-link"
-          href="/quote"
-          onClick={[Function]}
-        >
-          Quote
-        </a>
-      </li>
-    </ul>
-  </div>
-</nav>
+        Math Magicians
+      </div>
+      <div
+        class="menu"
+      >
+        <ul>
+          <li
+            class="link"
+          >
+            <a
+              aria-current="page"
+              class="nav-link active"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li
+            class="link"
+          >
+            <a
+              class="nav-link"
+              href="/calculator"
+            >
+              Calculator
+            </a>
+          </li>
+          <li
+            class="link"
+          >
+            <a
+              class="nav-link"
+              href="/quote"
+            >
+              Quote
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`Test for operation Home component should render correctly 1`] = `
-<div
-  className="home"
->
-  <h3>
-    Welcome to our Page
-  </h3>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non quam a risus eleifend tincidunt. Maecenas rhoncus porta ex, at sodales tortor consequat vitae. Aliquam fringilla lacus elit, vel eleifend lorem sodales eget. Sed a euismod mi, eget lacinia dolor. Nulla egestas lorem ut ligula auctor, et fermentum nibh commodo. Pellentesque ut purus accumsan, aliquam ligula quis, dictum erat. Ut vitae dignissim quam. Curabitur nulla enim, interdum vel nibh volutpat, porttitor viverra turpis. Donec eu libero sit amet sapien ornare aliquet sed vel erat. Donec ultricies, leo sed ullamcorper mollis, est erat pharetra augue, eget consequat ipsum lacus in sapien. In bibendum et sapien a facilisis. Quisque lacinia mi sit amet finibus eleifend. Maecenas sit amet rhoncus mauris. Suspendisse tempor lacus non sapien venenatis dapibus. Sed placerat ac velit non suscipit. Cras id maximus libero.
-  </p>
-  <p>
-    Pellentesque ullamcorper tempus neque in vestibulum. Pellentesque sit amet urna erat. Vestibulum pellentesque lectus id ipsum semper, a venenatis erat feugiat. Aliquam porta iaculis ligula id mollis. Aenean id pellentesque risus. Morbi lobortis fermentum rhoncus. Etiam efficitur vitae eros ac dictum. Integer id erat sit amet neque maximus hendrerit. Maecenas quis massa nec leo tincidunt convallis. In consequat aliquet neque, nec semper metus vehicula nec. Donec tincidunt ligula nec fermentum feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-  </p>
-</div>
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="home"
+      >
+        <h3>
+          Welcome to our Page
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non quam a risus eleifend tincidunt. Maecenas rhoncus porta ex, at sodales tortor consequat vitae. Aliquam fringilla lacus elit, vel eleifend lorem sodales eget. Sed a euismod mi, eget lacinia dolor. Nulla egestas lorem ut ligula auctor, et fermentum nibh commodo. Pellentesque ut purus accumsan, aliquam ligula quis, dictum erat. Ut vitae dignissim quam. Curabitur nulla enim, interdum vel nibh volutpat, porttitor viverra turpis. Donec eu libero sit amet sapien ornare aliquet sed vel erat. Donec ultricies, leo sed ullamcorper mollis, est erat pharetra augue, eget consequat ipsum lacus in sapien. In bibendum et sapien a facilisis. Quisque lacinia mi sit amet finibus eleifend. Maecenas sit amet rhoncus mauris. Suspendisse tempor lacus non sapien venenatis dapibus. Sed placerat ac velit non suscipit. Cras id maximus libero.
+        </p>
+        <p>
+          Pellentesque ullamcorper tempus neque in vestibulum. Pellentesque sit amet urna erat. Vestibulum pellentesque lectus id ipsum semper, a venenatis erat feugiat. Aliquam porta iaculis ligula id mollis. Aenean id pellentesque risus. Morbi lobortis fermentum rhoncus. Etiam efficitur vitae eros ac dictum. Integer id erat sit amet neque maximus hendrerit. Maecenas quis massa nec leo tincidunt convallis. In consequat aliquet neque, nec semper metus vehicula nec. Donec tincidunt ligula nec fermentum feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="home"
+    >
+      <h3>
+        Welcome to our Page
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non quam a risus eleifend tincidunt. Maecenas rhoncus porta ex, at sodales tortor consequat vitae. Aliquam fringilla lacus elit, vel eleifend lorem sodales eget. Sed a euismod mi, eget lacinia dolor. Nulla egestas lorem ut ligula auctor, et fermentum nibh commodo. Pellentesque ut purus accumsan, aliquam ligula quis, dictum erat. Ut vitae dignissim quam. Curabitur nulla enim, interdum vel nibh volutpat, porttitor viverra turpis. Donec eu libero sit amet sapien ornare aliquet sed vel erat. Donec ultricies, leo sed ullamcorper mollis, est erat pharetra augue, eget consequat ipsum lacus in sapien. In bibendum et sapien a facilisis. Quisque lacinia mi sit amet finibus eleifend. Maecenas sit amet rhoncus mauris. Suspendisse tempor lacus non sapien venenatis dapibus. Sed placerat ac velit non suscipit. Cras id maximus libero.
+      </p>
+      <p>
+        Pellentesque ullamcorper tempus neque in vestibulum. Pellentesque sit amet urna erat. Vestibulum pellentesque lectus id ipsum semper, a venenatis erat feugiat. Aliquam porta iaculis ligula id mollis. Aenean id pellentesque risus. Morbi lobortis fermentum rhoncus. Etiam efficitur vitae eros ac dictum. Integer id erat sit amet neque maximus hendrerit. Maecenas quis massa nec leo tincidunt convallis. In consequat aliquet neque, nec semper metus vehicula nec. Donec tincidunt ligula nec fermentum feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`Test for operation Quote component should render correctly 1`] = `
-<div
-  className="quote"
->
-  <p>
-    Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.- William Paul Thurston
-  </p>
-</div>
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="quote"
+      >
+        <p>
+          Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.- William Paul Thurston
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="quote"
+    >
+      <p>
+        Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.- William Paul Thurston
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;

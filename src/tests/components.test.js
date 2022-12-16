@@ -1,5 +1,5 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import {render} from '@testing-library/react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Header from '../components/Header';
 import Quote from '../components/Quote';
@@ -8,27 +8,19 @@ import CalculatorPage from '../components/calculator-page/CalculatorPage';
 
 describe('Test for operation', () => {
   it('Home component should render correctly', () => {
-    const tree = renderer
-      .create(<Home />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    const component = render(<Home />);
+    expect(component).toMatchSnapshot();
   });
   it('Calculator Page component should render correctly', () => {
-    const tree = renderer
-      .create(<CalculatorPage />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    const component = render(<CalculatorPage />);
+    expect(component).toMatchSnapshot();
   });
   it('Header component should render correctly', () => {
-    const tree = renderer
-      .create(<Router><Header /></Router>)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    const component = render(<Router><Header /></Router>);
+    expect(component).toMatchSnapshot();
   });
   it('Quote component should render correctly', () => {
-    const tree = renderer
-      .create(<Quote />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    const component = render(<Quote />);
+    expect(component).toMatchSnapshot();
   });
 });
