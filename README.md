@@ -106,8 +106,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> No yet.
-
+> 
 - [Live Demo Link](https://react-js-math-magicians-project.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
